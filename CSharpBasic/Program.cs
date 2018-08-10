@@ -16,8 +16,9 @@ namespace CSharpBasic
             //instantiate an object of TestClass1
 
             TestClass1 class1 = new TestClass1();
-            class1.TestCase1();
-            class1.TestCase2();
+            class1.TestCase1("Hello World!");
+            class1.TestCase2("How are you");
+
             Console.Read();
         }
     }

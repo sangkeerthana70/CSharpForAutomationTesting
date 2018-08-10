@@ -11,18 +11,16 @@ namespace CSharpBasic
 
     class TestClass1
     {
-        public void TestCase1()
+        public void TestCase1(string result)
         {
-            Console.WriteLine("Executing Test case1");
-            Console.Write("Hello World!");
-            Console.Read();
+            Console.WriteLine("Executing Test case1 " + result);
+            Console.WriteLine();
         }
 
-        public void TestCase2()
+        public void TestCase2(string result)
         {
-            Console.WriteLine("Executing Test case2");
-            Console.WriteLine("How are you");
-            Console.Read();
+            Console.WriteLine("Executing Test case2 " + result);
+            Console.WriteLine();
 
 
         }
