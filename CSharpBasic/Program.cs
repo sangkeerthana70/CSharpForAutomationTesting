@@ -16,6 +16,7 @@ namespace CSharpBasic
             //instantiate an object of TestClass1
 
             TestClass1 class1 = new TestClass1();
+            /*
             //class1.TestCase1("Hello World!");
             //class1.TestCase2("How are you");
 
@@ -31,7 +32,28 @@ namespace CSharpBasic
             class1.GetValue();
 
 
+            Console.Read();*/
+
+            /*
+            //exploring different variable types and their storage capacity       
+            //Int16 salary = 32767;
+            Int32 PayRoll = 32768;
+
+            Console.WriteLine(salary);
+
             Console.Read();
+            */
+
+            String name = "Anuradha";
+            Console.WriteLine(name.ToLower());
+
+            bool testCase = true;
+
+            Console.WriteLine(testCase);
+
+
+            Console.Read();
+
         }
     }
 }
